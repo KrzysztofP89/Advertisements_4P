@@ -7,6 +7,8 @@ import Aux from "../../../../hoc/_Aux";
 import DEMO from "../../../../store/constant";
 import * as actionTypes from "../../../../store/actions";
 
+
+
 class NavBar extends Component {
     render() {
         let headerClass = ['navbar', 'pcoded-header', 'navbar-expand-lg', this.props.headerBackColor];
@@ -32,9 +34,12 @@ class NavBar extends Component {
                         </a>
                     </div>
                     <a className="mobile-menu" id="mobile-header" href={DEMO.BLANK_LINK}><i className="feather icon-more-horizontal"/></a>
-                    <div className="collapse navbar-collapse">
-                        <NavLeft/>
-                        <NavRight rtlLayout={this.props.rtlLayout} />
+                    <div className="collapse navbar-collapse">  
+
+                       Put LOGO here
+
+                    <NavLeft/>
+                    <NavRight rtlLayout={this.props.rtlLayout} />
                     </div>
                 </header>
             </Aux>

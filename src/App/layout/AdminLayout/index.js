@@ -68,10 +68,7 @@ class AdminLayout extends Component {
                                     <div className="main-body">
                                         <div className="page-wrapper">
                                             <Suspense fallback={<Loader/>}>
-                                                <Switch>
-                                                    {menu}
-                                                    <Redirect from="/" to={this.props.defaultPath} />
-                                                </Switch>
+                                                
                                             </Suspense>
                                         </div>
                                     </div>

@@ -8,6 +8,8 @@ import DEMO from "../../../../../store/constant";
 import Avatar1 from '../../../../../assets/images/user/avatar-1.jpg';
 import Avatar2 from '../../../../../assets/images/user/avatar-2.jpg';
 import Avatar3 from '../../../../../assets/images/user/avatar-3.jpg';
+import Button from 'react-bootstrap/Button'
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
 
 class NavRight extends Component {
     state = {
@@ -19,6 +21,10 @@ class NavRight extends Component {
         return (
             <Aux>
                 <ul className="navbar-nav ml-auto">
+                <li>
+                    <ButtonToolbar><Button variant="primary" size="sm">Post Button</Button></ButtonToolbar>
+                </li>
+
                     <li>
                         <Dropdown alignRight={!this.props.rtlLayout}>
                             <Dropdown.Toggle variant={'link'} id="dropdown-basic">
