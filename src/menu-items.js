@@ -1,28 +1,513 @@
 export default {
     items: [
         {
-            id: 'navigation',
-            title: 'Navigation',
-            type: 'group',
-            icon: 'icon-navigation',
-            children: [
-                {
-                    id: 'dashboard',
-                    title: 'Dashboard',
-                    type: 'item',
-                    url: '/dashboard/default',
-                    icon: 'feather icon-home',
-                }
-            ]
-        },
-        {
             id: 'ui-element',
-            title: 'UI ELEMENT',
             type: 'group',
             icon: 'icon-ui',
             children: [
                 {
-                    id: 'basic',
+                    id: 'advertisements_1',
+                    title: 'Employment',
+                    type: 'collapse',
+                    icon: 'feather icon-box',
+                    children: [
+                        {
+                            id: 'Accounting',
+                            title: 'Accounting',
+                            type: 'item',
+                            url: '/basic/Accounting'
+                        },
+                        {
+                            id: 'Administrative & Office Jobs',
+                            title: 'Administrative & Office Jobs',
+                            type: 'item',
+                            url: '/basic/Administrative & Office Jobs'
+                        },
+                        {
+                            id: 'Advertising & Marketing Jobs',
+                            title: 'Advertising & Marketing Jobs',
+                            type: 'item',
+                            url: '/basic/Advertising & Marketing Jobs'
+                        },
+                        {
+                            id: 'Agriculture, Forestry & Fishing',
+                            title: 'Agriculture, Forestry & Fishing',
+                            type: 'item',
+                            url: '/basic/Agriculture, Forestry & Fishing'
+                        },
+                        {
+                            id: 'Architecture',
+                            title: 'Architecture',
+                            type: 'item',
+                            url: '/basic/Architecture'
+                        },
+                        {
+                            id: 'Arts, Media & Design Jobs',
+                            title: 'Arts, Media & Design Jobs',
+                            type: 'item',
+                            url: '/basic/Arts, Media & Design Jobs'
+                        },
+                        {
+                            id: 'Biotechnology & Pharmaceuticals',
+                            title: 'Biotechnology & Pharmaceuticals',
+                            type: 'item',
+                            url: '/basic/Biotechnology & Pharmaceuticals'
+                        },
+                        {
+                            id: 'Community, Social Services & Nonprofit',
+                            title: 'Community, Social Services & Nonprofit',
+                            type: 'item',
+                            url: '/basic/Community, Social Services & Nonprofit'
+                        },
+                        {
+                            id: 'Construction, Mining & Trades',
+                            title: 'Construction, Mining & Trades',
+                            type: 'item',
+                            url: '/basic/Construction, Mining & Trades'
+                        },
+                        {
+                            id: 'Customer Service & Call Center',
+                            title: 'Customer Service & Call Center',
+                            type: 'item',
+                            url: '/basic/Customer Service & Call Center'
+                        },
+                        {
+                            id: 'Education, Training & Library',
+                            title: 'Education, Training & Library',
+                            type: 'item',
+                            url: '/basic/Education, Training & Library'
+                        },
+                        {
+                            id: 'Employment Placement Agencies',
+                            title: 'Employment Placement Agencies',
+                            type: 'item',
+                            url: '/basic/Employment Placement Agencies'
+                        },
+                        {
+                            id: 'Engineering',
+                            title: 'Engineering',
+                            type: 'item',
+                            url: '/basic/Engineering'
+                        },
+                        {
+                            id: 'Financial & Banking',
+                            title: 'Financial & Banking',
+                            type: 'item',
+                            url: '/basic/Financial & Banking'
+                        },
+                        {
+                            id: 'General Labor',
+                            title: 'General Labor',
+                            type: 'item',
+                            url: '/basic/General Labor'
+                        },
+                        {
+                            id: 'Government',
+                            title: 'Government',
+                            type: 'item',
+                            url: '/basic/Government'
+                        },
+                        {
+                            id: 'Hotels & Hospitality',
+                            title: 'Hotels & Hospitality',
+                            type: 'item',
+                            url: '/basic/Hotels & Hospitality'
+                        },
+                        {
+                            id: 'Human Resources (HR)',
+                            title: 'Human Resources (HR)',
+                            type: 'item',
+                            url: '/basic/Human Resources (HR)'
+                        },
+                        {
+                            id: 'Information Technology (IT)',
+                            title: 'Information Technology (IT)',
+                            type: 'item',
+                            url: '/basic/Information Technology (IT)'
+                        },
+                        {
+                            id: 'Installation, Maintenance & Repair',
+                            title: 'Installation, Maintenance & Repair',
+                            type: 'item',
+                            url: '/basic/Installation, Maintenance & Repair'
+                        },
+                        {
+                            id: 'Insurance',
+                            title: 'Insurance',
+                            type: 'item',
+                            url: '/basic/Insurance'
+                        },
+                        {
+                            id: 'Internet & Ecommerce',
+                            title: 'Internet & Ecommerce',
+                            type: 'item',
+                            url: '/basic/Internet & Ecommerce'
+                        },
+                        {
+                            id: 'Law Enforcement & Security',
+                            title: 'Law Enforcement & Security',
+                            type: 'item',
+                            url: '/basic/Law Enforcement & Security'
+                        },
+                        {
+                            id: 'Legal & Paralegal',
+                            title: 'Legal & Paralegal',
+                            type: 'item',
+                            url: '/basic/Legal & Paralegal'
+                        },
+                        {
+                            id: 'Manufacturing',
+                            title: 'Manufacturing',
+                            type: 'item',
+                            url: '/basic/Manufacturing'
+                        },
+                        {
+                            id: 'Personal Care, Spas & Fitness',
+                            title: 'Personal Care, Spas & Fitness',
+                            type: 'item',
+                            url: '/basic/Personal Care, Spas & Fitness'
+                        },
+                        {
+                            id: 'Professional Services',
+                            title: 'Professional Services',
+                            type: 'item',
+                            url: '/basic/Professional Services'
+                        },
+                        {
+                            id: 'Real Estate',
+                            title: 'Real Estate',
+                            type: 'item',
+                            url: '/basic/Real Estate'
+                        },
+                        {
+                            id: 'Restaurants & Beverage',
+                            title: 'Restaurants & Beverage',
+                            type: 'item',
+                            url: '/basic/Restaurants & Beverage'
+                        },
+                        {
+                            id: 'Retail & Wholesale',
+                            title: 'Retail & Wholesale',
+                            type: 'item',
+                            url: '/basic/Retail & Wholesale'
+                        },
+                        {
+                            id: 'Sales',
+                            title: 'Sales',
+                            type: 'item',
+                            url: '/basic/Sales'
+                        },
+                        {
+                            id: 'Science',
+                            title: 'Science',
+                            type: 'item',
+                            url: '/basic/Science'
+                        },
+                        {
+                            id: 'Sports & Recreation',
+                            title: 'Sports & Recreation',
+                            type: 'item',
+                            url: '/basic/Sports & Recreation'
+                        },
+                        {
+                            id: 'Telecommunications',
+                            title: 'Telecommunications',
+                            type: 'item',
+                            url: '/basic/Telecommunications'
+                        },
+                        {
+                            id: 'Television, Film & Entertainment',
+                            title: 'Television, Film & Entertainment',
+                            type: 'item',
+                            url: '/basic/Television, Film & Entertainment'
+                        },
+                        {
+                            id: 'Transportation & Warehousing',
+                            title: 'Transportation & Warehousing',
+                            type: 'item',
+                            url: '/basic/Transportation & Warehousing'
+                        },
+                        {
+                            id: 'Other',
+                            title: 'Other',
+                            type: 'item',
+                            url: '/basic/Other'
+                        },
+                    ]
+                },
+
+                {
+                    id: 'advertisements_2',
+                    title: 'Component',
+                    type: 'collapse',
+                    icon: 'feather icon-box',
+                    children: [
+                        {
+                            id: 'button',
+                            title: 'Button',
+                            type: 'item',
+                            url: '/basic/button'
+                        },
+                        {
+                            id: 'badges',
+                            title: 'Badges',
+                            type: 'item',
+                            url: '/basic/badges'
+                        },
+                        {
+                            id: 'breadcrumb-pagination',
+                            title: 'Breadcrumb & Pagination',
+                            type: 'item',
+                            url: '/basic/breadcrumb-paging'
+                        },
+                        {
+                            id: 'collapse',
+                            title: 'Collapse',
+                            type: 'item',
+                            url: '/basic/collapse'
+                        },
+                        {
+                            id: 'tabs-pills',
+                            title: 'Tabs & Pills',
+                            type: 'item',
+                            url: '/basic/tabs-pills'
+                        },
+                        {
+                            id: 'typography',
+                            title: 'Typography',
+                            type: 'item',
+                            url: '/basic/typography'
+                        }
+                    ]
+                },
+                
+                {
+                    id: 'advertisements_3',
+                    title: 'Component',
+                    type: 'collapse',
+                    icon: 'feather icon-box',
+                    children: [
+                        {
+                            id: 'button',
+                            title: 'Button',
+                            type: 'item',
+                            url: '/basic/button'
+                        },
+                        {
+                            id: 'badges',
+                            title: 'Badges',
+                            type: 'item',
+                            url: '/basic/badges'
+                        },
+                        {
+                            id: 'breadcrumb-pagination',
+                            title: 'Breadcrumb & Pagination',
+                            type: 'item',
+                            url: '/basic/breadcrumb-paging'
+                        },
+                        {
+                            id: 'collapse',
+                            title: 'Collapse',
+                            type: 'item',
+                            url: '/basic/collapse'
+                        },
+                        {
+                            id: 'tabs-pills',
+                            title: 'Tabs & Pills',
+                            type: 'item',
+                            url: '/basic/tabs-pills'
+                        },
+                        {
+                            id: 'typography',
+                            title: 'Typography',
+                            type: 'item',
+                            url: '/basic/typography'
+                        }
+                    ]
+                },
+
+                {
+                    id: 'advertisements_4',
+                    title: 'Component',
+                    type: 'collapse',
+                    icon: 'feather icon-box',
+                    children: [
+                        {
+                            id: 'button',
+                            title: 'Button',
+                            type: 'item',
+                            url: '/basic/button'
+                        },
+                        {
+                            id: 'badges',
+                            title: 'Badges',
+                            type: 'item',
+                            url: '/basic/badges'
+                        },
+                        {
+                            id: 'breadcrumb-pagination',
+                            title: 'Breadcrumb & Pagination',
+                            type: 'item',
+                            url: '/basic/breadcrumb-paging'
+                        },
+                        {
+                            id: 'collapse',
+                            title: 'Collapse',
+                            type: 'item',
+                            url: '/basic/collapse'
+                        },
+                        {
+                            id: 'tabs-pills',
+                            title: 'Tabs & Pills',
+                            type: 'item',
+                            url: '/basic/tabs-pills'
+                        },
+                        {
+                            id: 'typography',
+                            title: 'Typography',
+                            type: 'item',
+                            url: '/basic/typography'
+                        }
+                    ]
+                },
+
+                {
+                    id: 'advertisements_5',
+                    title: 'Component',
+                    type: 'collapse',
+                    icon: 'feather icon-box',
+                    children: [
+                        {
+                            id: 'button',
+                            title: 'Button',
+                            type: 'item',
+                            url: '/basic/button'
+                        },
+                        {
+                            id: 'badges',
+                            title: 'Badges',
+                            type: 'item',
+                            url: '/basic/badges'
+                        },
+                        {
+                            id: 'breadcrumb-pagination',
+                            title: 'Breadcrumb & Pagination',
+                            type: 'item',
+                            url: '/basic/breadcrumb-paging'
+                        },
+                        {
+                            id: 'collapse',
+                            title: 'Collapse',
+                            type: 'item',
+                            url: '/basic/collapse'
+                        },
+                        {
+                            id: 'tabs-pills',
+                            title: 'Tabs & Pills',
+                            type: 'item',
+                            url: '/basic/tabs-pills'
+                        },
+                        {
+                            id: 'typography',
+                            title: 'Typography',
+                            type: 'item',
+                            url: '/basic/typography'
+                        }
+                    ]
+                },
+
+                {
+                    id: 'advertisements_6',
+                    title: 'Component',
+                    type: 'collapse',
+                    icon: 'feather icon-box',
+                    children: [
+                        {
+                            id: 'button',
+                            title: 'Button',
+                            type: 'item',
+                            url: '/basic/button'
+                        },
+                        {
+                            id: 'badges',
+                            title: 'Badges',
+                            type: 'item',
+                            url: '/basic/badges'
+                        },
+                        {
+                            id: 'breadcrumb-pagination',
+                            title: 'Breadcrumb & Pagination',
+                            type: 'item',
+                            url: '/basic/breadcrumb-paging'
+                        },
+                        {
+                            id: 'collapse',
+                            title: 'Collapse',
+                            type: 'item',
+                            url: '/basic/collapse'
+                        },
+                        {
+                            id: 'tabs-pills',
+                            title: 'Tabs & Pills',
+                            type: 'item',
+                            url: '/basic/tabs-pills'
+                        },
+                        {
+                            id: 'typography',
+                            title: 'Typography',
+                            type: 'item',
+                            url: '/basic/typography'
+                        }
+                    ]
+                },
+
+                {
+                    id: 'advertisements_7',
+                    title: 'Component',
+                    type: 'collapse',
+                    icon: 'feather icon-box',
+                    children: [
+                        {
+                            id: 'button',
+                            title: 'Button',
+                            type: 'item',
+                            url: '/basic/button'
+                        },
+                        {
+                            id: 'badges',
+                            title: 'Badges',
+                            type: 'item',
+                            url: '/basic/badges'
+                        },
+                        {
+                            id: 'breadcrumb-pagination',
+                            title: 'Breadcrumb & Pagination',
+                            type: 'item',
+                            url: '/basic/breadcrumb-paging'
+                        },
+                        {
+                            id: 'collapse',
+                            title: 'Collapse',
+                            type: 'item',
+                            url: '/basic/collapse'
+                        },
+                        {
+                            id: 'tabs-pills',
+                            title: 'Tabs & Pills',
+                            type: 'item',
+                            url: '/basic/tabs-pills'
+                        },
+                        {
+                            id: 'typography',
+                            title: 'Typography',
+                            type: 'item',
+                            url: '/basic/typography'
+                        }
+                    ]
+                },
+
+                {
+                    id: 'advertisements_8',
                     title: 'Component',
                     type: 'collapse',
                     icon: 'feather icon-box',
@@ -65,149 +550,10 @@ export default {
                         }
                     ]
                 }
-            ]
-        },
-        {
-            id: 'ui-forms',
-            title: 'Forms & Tables',
-            type: 'group',
-            icon: 'icon-group',
-            children: [
-                {
-                    id: 'form-basic',
-                    title: 'Form Elements',
-                    type: 'item',
-                    url: '/forms/form-basic',
-                    icon: 'feather icon-file-text'
-                },
-                {
-                    id: 'bootstrap',
-                    title: 'Table',
-                    type: 'item',
-                    icon: 'feather icon-server',
-                    url: '/tables/bootstrap'
-                }
-            ]
-        },
-        {
-            id: 'chart-maps',
-            title: 'Chart & Maps',
-            type: 'group',
-            icon: 'icon-charts',
-            children: [
-                {
-                    id: 'charts',
-                    title: 'Charts',
-                    type: 'item',
-                    icon: 'feather icon-pie-chart',
-                    url: '/charts/nvd3'
-                },
-                {
-                    id: 'maps',
-                    title: 'Map',
-                    type: 'item',
-                    icon: 'feather icon-map',
-                    url: '/maps/google-map'
-                }
-            ]
-        },
-        {
-            id: 'pages',
-            title: 'Pages',
-            type: 'group',
-            icon: 'icon-pages',
-            children: [
-                {
-                    id: 'auth',
-                    title: 'Authentication',
-                    type: 'collapse',
-                    icon: 'feather icon-lock',
-                    badge: {
-                        title: 'New',
-                        type: 'label-danger'
-                    },
-                    children: [
-                        {
-                            id: 'signup-1',
-                            title: 'Sign up',
-                            type: 'item',
-                            url: '/auth/signup-1',
-                            target: true,
-                            breadcrumbs: false
-                        },
-                        {
-                            id: 'signin-1',
-                            title: 'Sign in',
-                            type: 'item',
-                            url: '/auth/signin-1',
-                            target: true,
-                            breadcrumbs: false
-                        }
-                    ]
-                },
 
-                {
-                    id: 'sample-page',
-                    title: 'Sample Page',
-                    type: 'item',
-                    url: '/sample-page',
-                    classes: 'nav-item',
-                    icon: 'feather icon-sidebar'
-                },
-                {
-                    id: 'docs',
-                    title: 'Documentation',
-                    type: 'item',
-                    url: '/docs',
-                    classes: 'nav-item',
-                    icon: 'feather icon-help-circle'
-                },
-                {
-                    id: 'menu-level',
-                    title: 'Menu Levels',
-                    type: 'collapse',
-                    icon: 'feather icon-menu',
-                    children: [
-                        {
-                            id: 'menu-level-1.1',
-                            title: 'Menu Level 1.1',
-                            type: 'item',
-                            url: '#!',
-                        },
-                        {
-                            id: 'menu-level-1.2',
-                            title: 'Menu Level 2.2',
-                            type: 'collapse',
-                            children: [
-                                {
-                                    id: 'menu-level-2.1',
-                                    title: 'Menu Level 2.1',
-                                    type: 'item',
-                                    url: '#',
-                                },
-                                {
-                                    id: 'menu-level-2.2',
-                                    title: 'Menu Level 2.2',
-                                    type: 'collapse',
-                                    children: [
-                                        {
-                                            id: 'menu-level-3.1',
-                                            title: 'Menu Level 3.1',
-                                            type: 'item',
-                                            url: '#',
-                                        },
-                                        {
-                                            id: 'menu-level-3.2',
-                                            title: 'Menu Level 3.2',
-                                            type: 'item',
-                                            url: '#',
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
+            ]
+        },
+
                 {
                     id: 'disabled-menu',
                     title: 'Disabled Menu',
@@ -216,21 +562,6 @@ export default {
                     classes: 'nav-item disabled',
                     icon: 'feather icon-power'
                 },
-                /*{
-                    id: 'buy-now',
-                    title: 'Buy Now',
-                    type: 'item',
-                    icon: 'feather icon-user',
-                    classes: 'nav-item',
-                    url: 'https://codedthemes.com',
-                    target: true,
-                    external: true,
-                    badge: {
-                        title: 'v1.0',
-                        type: 'label-primary'
-                    }
-                }*/
-            ]
-        }
-    ]
-}
+        ]
+    }
+    

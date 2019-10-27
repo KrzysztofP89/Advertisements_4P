@@ -8,6 +8,8 @@ import Aux from "../../../../../hoc/_Aux";
 import DEMO from "../../../../../store/constant";
 import * as actionTypes from "../../../../../store/actions";
 
+
+
 class NavLeft extends Component {
 
     render() {
@@ -27,6 +29,9 @@ class NavLeft extends Component {
         return (
             <Aux>
                 <ul className="navbar-nav mr-auto">
+                    
+                <li className={this.props.rtlLayout ? 'm-r-5' : 'm-l-5'}> </li>
+
                     <li><a href={DEMO.BLANK_LINK} className="full-screen" onClick={this.props.onFullScreen}><i className={iconFullScreen.join(' ')} /></a></li>
                     <li className={navItemClass.join(' ')}>
                         <Dropdown alignRight={dropdownRightAlign}>
